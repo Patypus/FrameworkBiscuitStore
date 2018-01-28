@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkBiscuitStoreWeb", "FrameworkBiscuitStoreWeb\FrameworkBiscuitStoreWeb.csproj", "{C9077DCE-BBF9-4430-8F15-26292B9522AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{2BFC3561-701F-4E19-B0C1-5EED7D735374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C9077DCE-BBF9-4430-8F15-26292B9522AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9077DCE-BBF9-4430-8F15-26292B9522AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9077DCE-BBF9-4430-8F15-26292B9522AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFC3561-701F-4E19-B0C1-5EED7D735374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFC3561-701F-4E19-B0C1-5EED7D735374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFC3561-701F-4E19-B0C1-5EED7D735374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFC3561-701F-4E19-B0C1-5EED7D735374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
