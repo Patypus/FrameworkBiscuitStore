@@ -9,6 +9,10 @@ namespace Data.Dtos
         public string Description { get; set;}
         public double Price { get; set; }
 
+        public BiscuitDto()
+        {
+        }
+
         public BiscuitDto (Biscuit biscuitEntity)
         {
             Id = biscuitEntity.Id;

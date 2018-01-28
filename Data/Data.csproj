@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="Collections\" />
-    <Folder Include="Dtos\" />
   </ItemGroup>
 
 </Project>
