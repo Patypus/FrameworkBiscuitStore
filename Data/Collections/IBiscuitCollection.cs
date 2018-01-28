@@ -9,9 +9,9 @@ namespace Data.Collections
 
         BiscuitDto GetBiscuitById(int biscuitId);
 
-        BiscuitDto AddBiscuit(BiscuitDto);
+        BiscuitDto AddBiscuit(BiscuitDto biscuitToAdd);
 
-        BiscuitDto UpdateBiscuit(BiscuitDto);
+        BiscuitDto UpdateBiscuit(BiscuitDto biscuitToUpdate);
 
         bool DeleteBiscuit(int id);
     }
