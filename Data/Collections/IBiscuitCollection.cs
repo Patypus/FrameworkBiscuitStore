@@ -9,7 +9,7 @@ namespace Data.Collections
 
         BiscuitDto GetBiscuitById(int biscuitId);
 
-        BiscuitDto AddBiscuit(BiscuitDto biscuitToAdd);
+        void AddBiscuit(BiscuitDto biscuitToAdd);
 
         BiscuitDto UpdateBiscuit(BiscuitDto biscuitToUpdate);
 

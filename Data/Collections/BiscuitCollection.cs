@@ -41,13 +41,11 @@ namespace Data.Collections
             return result.Select(entity => new BiscuitDto(entity)).First();
         }
 
-        public BiscuitDto AddBiscuit(BiscuitDto biscuitToAdd)
+        public void AddBiscuit(BiscuitDto biscuitToAdd)
         {
             var biscuitEntity = biscuitToAdd.ConvertToEntity();
 
             _database.GetCollection<Biscuit>("Biscuit").InsertOne(biscuitEntity);
-
-            throw new NotImplementedException();
         }
         
         public BiscuitDto UpdateBiscuit(BiscuitDto biscuitToUpdate)
